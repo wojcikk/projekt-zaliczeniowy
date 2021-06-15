@@ -1,0 +1,30 @@
+.container {
+    align-items: center;
+}
+
+.inner-container {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    color: rgb(58, 58, 58);
+    border-radius: 3px;
+    width: 400px;
+    
+}
+
+.err {
+    color: red;
+    font-size: 15px;
+    height: 30px;
+    font-weight: 600;
+}
+
+.button, .form {
+    background-color: white;
+    color: rgb(58, 58, 58);
+    border-radius: 3px;
+    padding: 6px 9px;
+    margin: 1px;
+    border-color: lightgray;
+    border-width: 1px;
+} 

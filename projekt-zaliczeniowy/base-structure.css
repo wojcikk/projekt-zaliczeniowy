@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-image: url('images/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 7px 0px;
+}
+
+
+nav .logout-button a {
+    font-weight: 600;
+}
+
+nav hr {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container, footer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(70vh);
+    border-radius: 3px;
+
+}
+
+.tile {
+    margin: 10px 0px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 3px;
+
+}
+
+.elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text {
+    margin: 0px 20px;
+}
+
+footer {
+    background-color: white;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    padding: 5px 0px;
+} 
