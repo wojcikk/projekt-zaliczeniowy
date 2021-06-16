@@ -24,7 +24,7 @@
 
 <body>
     <nav>
-        <a href="main-page.php"><img src="images/logo.png"></a>
+        <a href="main-page.php"><img src="images/logo.png" alt=""></a>
         <hr>
         <div class="logout-button"><a href="logout.php">WYLOGUJ SIĘ</a></div>
     </nav>
@@ -32,45 +32,45 @@
     <div class="container">
         <div class="row">
             <div class="column">
-                <img src="images/gallery/2.jpg">
-                <img src="images/gallery/3.jpg">
-                <img src="images/gallery/4.jpg">
-                <img src="images/gallery/5.jpg">
-                <img src="images/gallery/6.jpg">
-                <img src="images/gallery/7.jpg">
+                <img src="images/gallery/2.jpg" alt="">
+                <img src="images/gallery/3.jpg" alt="">
+                <img src="images/gallery/4.jpg" alt="">
+                <img src="images/gallery/5.jpg" alt="">
+                <img src="images/gallery/6.jpg" alt="">
+                <img src="images/gallery/7.jpg" alt="">
             </div>
             <div class="column">
-                <img src="images/gallery/8.jpg">
-                <img src="images/gallery/9.jpg">
-                <img src="images/gallery/10.jpg">
-                <img src="images/gallery/11.png">
-                <img src="images/gallery/12.jpg">
-                <img src="images/gallery/13.jpg">
+                <img src="images/gallery/8.jpg" alt="">
+                <img src="images/gallery/9.jpg" alt="">
+                <img src="images/gallery/10.jpg" alt="">
+                <img src="images/gallery/11.png" alt="">
+                <img src="images/gallery/12.jpg" alt="">
+                <img src="images/gallery/13.jpg" alt="">
             </div>
             <div class="column">
-                <img src="images/gallery/15.png">
-                <img src="images/gallery/16.jpg">
-                <img src="images/gallery/17.jpg">
-                <img src="images/gallery/18.jpg">
-                <img src="images/gallery/19.jpg">
-                <img src="images/gallery/20.jpg">
+                <img src="images/gallery/15.png" alt="">
+                <img src="images/gallery/16.jpg" alt="">
+                <img src="images/gallery/17.jpg" alt="">
+                <img src="images/gallery/18.jpg" alt="">
+                <img src="images/gallery/19.jpg" alt="">
+                <img src="images/gallery/20.jpg" alt="">
             </div>
             <div class="column">
-                <img src="images/gallery/21.jpg">
-                <img src="images/gallery/22.jpg">
-                <img src="images/gallery/23.jpg">
-                <img src="images/gallery/24.jpg">
-                <img src="images/gallery/25.jpg">
-                <img src="images/gallery/26.jpg">
+                <img src="images/gallery/21.jpg" alt="">
+                <img src="images/gallery/22.jpg" alt="">
+                <img src="images/gallery/23.jpg" alt="">
+                <img src="images/gallery/24.jpg" alt="">
+                <img src="images/gallery/25.jpg" alt="">
+                <img src="images/gallery/26.jpg" alt="">
             </div>
         </div>
     </div>
     
     
     <footer>
-        <a href="opinions.php"><div class="elements"><img src="images/opinions.png"><div class="text">PRZEŚLIJ OPINIE</div></div></a>
-        <a href=""><div class="elements"><img src="images/about.png"><div class="text" style="opacity:50%;">O NAS</div></div></a>
-        <a href=""><div class="elements"><img src="images/contact.png"><div class="text" style="opacity:50%;">KONTAKT</div></div></a>
+        <a href="opinions.php"><div class="elements"><img src="images/opinions.png" alt=""><div class="text">PRZEŚLIJ OPINIE</div></div></a>
+        <a href="about.php"><div class="elements"><img src="images/about.png" alt=""><div class="text">O NAS</div></div></a>
+        <a href="contact.php"><div class="elements"><img src="images/contact.png" alt=""><div class="text">KONTAKT</div></div></a>
     </footer>
 
 </body>

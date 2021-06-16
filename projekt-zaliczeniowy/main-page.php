@@ -23,24 +23,24 @@
 
 <body>
     <nav>
-        <a href="main-page.php"><img src="images/logo.png"></a>
+        <a href="main-page.php"><img src="images/logo.png" alt=""></a>
         <hr>
         <div class="logout-button"><a href="logout.php">WYLOGUJ SIĘ</a></div>
     </nav>
    
     <div class="container">
-        <a href="choose-topic.php"><div class="tile elements"><img src="images/learn.png"><div class="text">UCZ SIĘ</div></div></a>
-        <a href="informations.php"><div class="tile elements"><img src="images/informations.png"><div class="text">CIEKAWOSTKI</div></div></a>
-        <a href="play.php"><div class="tile elements"><img src="images/play.png"><div class="text">GRAJ</div></div></a>
-        <a href="gallery.php"><div class="tile elements"><img src="images/gallery.png"><div class="text">GALERIA POLSKICH ARCYMISTRZÓW</div></div></a>
-        <a href="course.php"><div class="tile elements"><img src="images/course.png"><div class="text">ZAPISZ SIĘ NA SZKOLENIE</div></div></a>
+        <a href="choose-topic.php"><div class="tile elements"><img src="images/learn.png" alt=""><div class="text">UCZ SIĘ</div></div></a>
+        <a href="informations.php"><div class="tile elements"><img src="images/informations.png" alt=""><div class="text">CIEKAWOSTKI</div></div></a>
+        <a href="play.php"><div class="tile elements"><img src="images/play.png" alt=""><div class="text">GRAJ</div></div></a>
+        <a href="gallery.php"><div class="tile elements"><img src="images/gallery.png" alt=""><div class="text">GALERIA POLSKICH ARCYMISTRZÓW</div></div></a>
+        <a href="course.php"><div class="tile elements"><img src="images/course.png" alt=""><div class="text">ZAPISZ SIĘ NA SZKOLENIE</div></div></a>
     </div>
     
     
     <footer>
-        <a href="opinions.php"><div class="elements"><img src="images/opinions.png"><div class="text">PRZEŚLIJ OPINIE</div></div></a>
-        <a href=""><div class="elements"><img src="images/about.png"><div class="text" style="opacity:50%;">O NAS</div></div></a>
-        <a href=""><div class="elements"><img src="images/contact.png"><div class="text" style="opacity:50%;">KONTAKT</div></div></a>
+        <a href="opinions.php"><div class="elements"><img src="images/opinions.png" alt=""><div class="text">PRZEŚLIJ OPINIE</div></div></a>
+        <a href="about.php"><div class="elements"><img src="images/about.png" alt=""><div class="text">O NAS</div></div></a>
+        <a href="contact.php"><div class="elements"><img src="images/contact.png" alt=""><div class="text">KONTAKT</div></div></a>
     </footer>
 
 </body>

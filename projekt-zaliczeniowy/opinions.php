@@ -14,6 +14,8 @@
         $login = $_SESSION['user'];
         $comment = $_POST['commentf'];
 
+        echo $login;
+
         try {
             $connection = new mysqli($host, $db_user, $db_password, $db_name);
             if ($connection->connect_errno!=0)
@@ -89,7 +91,7 @@
 
 <body>
     <nav>
-        <a href="main-page.php"><img src="images/logo.png"></a>
+        <a href="main-page.php"><img src="images/logo.png" alt=""></a>
         <hr>
         <div class="logout-button"><a href="logout.php" >WYLOGUJ SIĘ</a></div>
     </nav>
@@ -140,9 +142,9 @@
     
     
     <footer>
-        <a href="opinions.php"><div class="elements"><img src="images/opinions.png"><div class="text">PRZEŚLIJ OPINIE</div></div></a>
-        <a href=""><div class="elements"><img src="images/about.png"><div class="text" style="opacity:50%;">O NAS</div></div></a>
-        <a href=""><div class="elements"><img src="images/contact.png"><div class="text" style="opacity:50%;">KONTAKT</div></div></a>
+        <a href="opinions.php"><div class="elements"><img src="images/opinions.png" alt=""><div class="text">PRZEŚLIJ OPINIE</div></div></a>
+        <a href="about.php"><div class="elements"><img src="images/about.png" alt=""><div class="text">O NAS</div></div></a>
+        <a href="contact.php"><div class="elements"><img src="images/contact.png" alt=""><div class="text">KONTAKT</div></div></a>
     </footer>
 </body>
 
